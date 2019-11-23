@@ -1,0 +1,34 @@
+{
+  "name": "regsitroapi",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "docker": "node ./bin/www & (cd ../register_client && npm run start)"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.7",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasHdezT/Register_API_PW0219.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouglasHdezT/Register_API_PW0219/issues"
+  },
+  "homepage": "https://github.com/DouglasHdezT/Register_API_PW0219#readme",
+  "description": ""
+}
